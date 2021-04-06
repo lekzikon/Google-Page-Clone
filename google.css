@@ -1,0 +1,176 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Styling starts here */
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+
+.navbar ul {
+    display:flex;
+    margin-right: 1%;
+}
+
+.navbar li {    
+    padding: 10px;
+    list-style: none;
+}
+
+.navbar a {
+    color: rgba(22, 22, 22, 0.993);    
+    text-decoration: none;
+
+}
+
+#sign {
+    background-color: blue;
+    padding: 5px;
+    border-radius: 5px;  
+    font-weight: 550;  
+}
+
+/* Main Styling starts here */
+
+#image {
+    display: block;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 160px;
+}
+
+
+
+#micUp {
+    width: 50%;
+    border: 1px solid rgb(160, 157, 157);
+    border-radius: 50px;
+    height: 43px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.searchBox {
+    width: 88%;
+    height: 36px;
+    border-style: unset;
+    margin: auto;
+    
+
+}
+
+
+
+
+
+
+#itemRight {
+    margin-left: 30px;
+    padding-top: 12px;
+    color: rgb(39, 100, 180);
+    
+}
+
+#itemLeft {
+    padding-left: 10px;
+    padding-top: 12px;
+    color: rgb(145, 92, 117)
+}
+
+.lucky {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 20px;
+    border-style: none;
+}
+
+#luck { 
+    margin: 10px;
+    padding: 10px;
+    border-style: none;
+    border-radius: 5px;    
+}
+
+.lucky :hover {     
+    background: rgb(226, 225, 225);
+    color: black;
+    border-radius: 5px;
+
+}
+
+/* footer Styling starts here */
+
+#language {    
+    display: flex;
+    justify-content: center;
+    
+}
+
+.langEdit {
+    padding: 10px;
+    text-decoration: none;
+}
+
+.location {
+    font-size: 20px;
+    padding: 8px;
+    margin-top: 170px;
+    background-color: rgb(243, 242, 242);
+}
+
+hr {
+    border:1px solid rgb(219, 219, 219);
+}
+
+
+#bottom {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(243, 242, 242);
+}
+.footer-left {
+    display: flex;
+}
+
+.footer-right {
+    display: flex;
+    text-align: end;
+    margin-right: 0%;
+    
+}
+
+
+
+footer li {
+    list-style: none;
+    padding: 10px;
+    
+}
+
+footer a {
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 600px) {
+    #bottom {
+        display: block;
+
+    }
+
+    .footer-left {
+        display: table-caption;
+    }
+
+    .footer-right {
+        display: table-caption;
+    }
+
+}
